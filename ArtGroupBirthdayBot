@@ -1,11 +1,10 @@
-.github/workflows/bot.yml
 name: Telegram Bot
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - основной
+      - main
 
 jobs:
   run-bot:
